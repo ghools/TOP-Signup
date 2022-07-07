@@ -21,6 +21,10 @@ html, body{
     display: flex;
 }
 
+.emph {
+    font-style: italic;
+}
+
 .pageContainer {
     background-color: black;
     height: 100%;
@@ -90,6 +94,7 @@ html, body{
     font-size: x-large;
     font-weight: bold;
     padding-right: 30%;
+    color: rgb(20, 19, 43, 0.95);
 }
 
 .formContainer {
