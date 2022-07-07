@@ -14,6 +14,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: rgb(4, 87, 4);
+}
+
 html,
 body {
     height: 100%;
@@ -22,18 +26,19 @@ body {
 label, input{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 8px;
 }
 input{
     font-size: 15px;
-    height: 35px;
+    height: 45px;
     border-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
 }
-input:focus {
+input:focus, input:required:focus {
         outline: none;
         border: 2px solid rgba(53, 53, 255, 0.7);
         box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+        background-color: white;
 }
 
 input:required{
@@ -153,4 +158,29 @@ label {
 
 .submitContainer {
     height: 20%;
+    flex-direction: column;
+}
+
+.subButt{
+    background-color: rgb(13, 138, 13);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 55px;
+    font-weight: bolder;
+    margin: 25px;
+    margin-left: 5%;
+    margin-top: 35px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.loginText {
+    font-size: large;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40px;
 }
