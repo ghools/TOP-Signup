@@ -6,18 +6,41 @@
     src: url(fonts/fd1ad3a0f95210975d2f5607501020b5.woff);
     src: url(fonts/fd1ad3a0f95210975d2f5607501020b5.woff2);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-html, body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
+label, input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+input{
+    font-size: 15px;
+    height: 35px;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+input:focus {
+        outline: none;
+        border: 2px solid rgba(53, 53, 255, 0.7);
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
 
-#container{
+}
+
+label {
+    font-weight: bolder;
+}
+#container {
     display: flex;
 }
 
@@ -34,20 +57,21 @@ html, body{
 
 .mainContainer {
     height: 100%;
-    width: 80%;
-    background-color: rgb(228, 228, 228);
+    width: 90%;
+    background-color: rgb(238, 238, 238);
 }
 
- .subContainer {
+.subContainer {
     background-image: url(images/photo-1585202900225-6d3ac20a6962.avif);
     height: 100%;
-    width: 38%;
+    width: 45%;
     background-repeat: no-repeat;
     background-size: auto;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .logobox {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -73,17 +97,19 @@ html, body{
 }
 
 .ref {
- color: white;
- font-size: smaller;
- padding: 10px;
- margin-top: 85%;
+    color: white;
+    font-size: smaller;
+    padding: 10px;
+    margin-top: 85%;
 }
+
 .subContainerL {
     flex-direction: column;
+    height: 100%;
 }
 
 .sloganContainer {
-    height: 35%;
+    height: 45%;
     justify-content: center;
     flex-direction: column;
 }
@@ -99,9 +125,27 @@ html, body{
 
 .formContainer {
     background-color: white;
-    height: 30%;
+    height: 35%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+.mainForm {
+    display: flex;   
+}
+
+.text {
+    background-color: white;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-size: 24px;
+    
+}
+
+.formR {
+    padding-left: 30px;
 }
 
 .submitContainer {
-    height: 35%;
+    height: 20%;
 }

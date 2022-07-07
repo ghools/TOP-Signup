@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,54 @@
     <title>Sign-up</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="container"  class="pageContainer">
-        <div id="container"  class="mainContainer">
-            <div id="container"  class="subContainer">
-            <div id="container" class="logobox">
-                <div class="logoImage"></div>
-                <div class="logoText">ODIN</div>
-            </div>
 
-            <a class= "ref" href="http://www.onlinewebfonts.com">Online Web Fonts</a>
+<body>
+    <div id="container" class="pageContainer">
+        <div id="container" class="mainContainer">
+            <div id="container" class="subContainer">
+                <div id="container" class="logobox">
+                    <div class="logoImage"></div>
+                    <div class="logoText">ODIN</div>
+                </div>
+
+                <a class="ref" href="http://www.onlinewebfonts.com">Online Web Fonts</a>
             </div>
-            <div id="container"  class="subContainerL">
+            <div id="container" class="subContainerL">
                 <div id="container" class="sloganContainer">
-                    <p class="slogan">This is not a real online Service! You need something 
+                    <p class="slogan">This is not a real online Service! You need something
                         like this in your life to help you realize your deepest
                         dreams. Sign up <span class="emph">now</span> to get started!
                     </p>
                     <div class="slogan"> You <span class="emph">know</span> you want to.</div>
                 </div>
+                <div class="text">Lets Do this!</div>
                 <div id="container" class="formContainer">
-                    FORM STUFF WILL GO HERE.
+                    <form class="mainForm" action="signup.com/signup" method="post">
+                        <div class="formR">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" id="firstName">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="formR">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" id="lastName">
+                            <label for="teleNumber">Telephone Number:</label>
+                            <input type="tel" name="teleNumber" id="teleNumber">
+                            <label for="passConf">Confirm Password:</label>
+                            <input type="password" name="passwordConfirm" id="passConf">
+                        </div>
+                    </form>
                 </div>
                 <div id="container" class="submitContainer"> FORM SUBMIT BUTTON HERE</div>
             </div>
-    
-    
+
+
         </div>
 
     </div>
 </body>
+
 </html>
