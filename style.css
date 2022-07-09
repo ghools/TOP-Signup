@@ -33,6 +33,7 @@ input{
     height: 45px;
     border-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
+    padding: 10px;
 }
 input:focus, input:required:focus {
         outline: none;
@@ -41,7 +42,7 @@ input:focus, input:required:focus {
         background-color: white;
 }
 
-input:required{
+:placeholder-shown:required{
     background-color: rgba(255, 0, 0, 0.09);
     outline: none;
     border: 2px solid rgba(255, 0, 0, 0.37);
