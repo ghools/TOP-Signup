@@ -59,7 +59,7 @@ label {
 }
 
 .pageContainer {
-    background-color: black;
+    /* background-color: black; */
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -67,7 +67,7 @@ label {
 
 .mainContainer {
     height: 100%;
-    width: 90%;
+    width: 100%;
     background-color: rgb(238, 238, 238);
 }
 
@@ -136,6 +136,7 @@ label {
 .formContainer {
     background-color: white;
     height: 35%;
+    width: auto;
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
 }
 
@@ -149,6 +150,7 @@ label {
     padding-bottom: 15px;
     padding-left: 25px;
     font-size: 24px;
+    width:
     
 }
 
@@ -180,7 +182,5 @@ label {
 
 .loginText {
     font-size: large;
-    padding: 10px;
-    margin: 20px;
     margin-left: 40px;
 }
